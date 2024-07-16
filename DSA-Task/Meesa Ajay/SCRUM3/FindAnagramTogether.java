@@ -19,7 +19,7 @@ public class FindAnagramTogether{
     }
     
     public static void main(String[] args) {
-        GroupAnagrams ga = new GroupAnagrams();
+        FindAnagramTogether ga = new FindAnagramTogether();
         String[] input = {"eat","tea","tan","ate","nat","bat"};
         List<List<String>> result = ga.groupAnagrams(input);
         for (List<String> group : result) {
